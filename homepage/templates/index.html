@@ -1,4 +1,86 @@
 {% extends "base.html" %}
 {% block page_content %}
-<h1>this is home page</h1>
+
+{% load static %}
+
+
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: black;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 0px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+.w3-wide {
+    color: black;
+}
+</style>
+<body class="w3-white">
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+    <h1 class="w3-jumbo"><span class="w3-hide-small">I'm</span> Vansh Bhardwaj.</h1>
+    <h2>full-stack Web Developer  |  pythonista  |  data science enthusiast</h2>
+    <br>
+    <img src="{% static 'img/profilepic.jpg' %}" alt="boy" class="w3-image" width="492" height="400";>
+  </header>
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+    <h2  class="w3-text-black">My Name</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <h3> Hello, my name is Vansh bhardwaj . I am a full stack web developer .
+      I have serious passion for creating web applications and solving real world problems , in short i like creating and problem solving.
+      developing web apps allow me to solve and create something that can help others in future.
+      proficient in python(Django) + javascript(nodeJS) 
+    </h3>
+    <h3 class="w3-padding-16 w3-text-black">My Skills</h3>
+    <p class="w3-wide">Web development</p>
+    <div class="w3-black">
+      <div class="w3-dark-grey" style="height:28px;width:80%"></div>
+    </div>
+    <p class="w3-wide">python</p>
+    <div class="w3-black">
+      <div class="w3-dark-grey" style="height:28px;width:85%"></div>
+    </div>
+    <p class="w3-wide">Javascript</p>
+    <div class="w3-black">
+      <div class="w3-dark-grey" style="height:28px;width:60%"></div>
+    </div><br>
+
+
+    </div>
+
+
+  </div>
+
+
+  </div>
+
+
+<!-- END PAGE CONTENT -->
+</div>
+
+</body>
+</html>
+
+
+
+
+
+
+
 {% endblock %}
