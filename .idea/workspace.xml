@@ -2,14 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9aa3a040-c2b0-4a32-b0d5-463c58887a94" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/homepage/static/img/profilepic.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/homepage/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/homepage/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/homepage/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/homepage/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/homepage/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/projects/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/static/img/webdev.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/static/img/webdev2.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/static/img/webdev3.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/static/img/webdev3.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/projects/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/templates/project_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/templates/project_detail.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,7 +26,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/homepage/static/img" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
