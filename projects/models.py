@@ -10,6 +10,9 @@ class Project(models.Model):
     image = models.FilePathField(path='/img')
     sourcecode = models.URLField(max_length= 200 , default=None)
 
+    def __str__(self):
+        return self.title
+
 
 
 

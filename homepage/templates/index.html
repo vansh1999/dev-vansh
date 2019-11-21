@@ -24,6 +24,22 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 .w3-wide {
     color: black;
 }
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 </style>
 <body class="w3-white">
 
@@ -48,18 +64,22 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
       proficient in python(Django) and javascript(nodeJS)
     </h3>
     <h3 class="w3-padding-16 w3-text-black">Skills</h3>
-    <p class="w3-wide">Web development</p>
-    <div class="w3-black">
-      <div class="w3-dark-grey" style="height:28px;width:80%"></div>
-    </div>
-    <p class="w3-wide">python</p>
-    <div class="w3-black">
-      <div class="w3-dark-grey" style="height:28px;width:85%"></div>
-    </div>
-    <p class="w3-wide">Javascript</p>
-    <div class="w3-black">
-      <div class="w3-dark-grey" style="height:28px;width:60%"></div>
-    </div><br>
+
+
+<div class="row">
+  <div class="column">
+    <h4>Python</h4>
+    <img src="https://img.icons8.com/dusk/100/000000/python.png">
+  </div>
+  <div class="column">
+    <h4>Javascript</h4>
+    <img src="https://img.icons8.com/color/100/000000/javascript.png">
+  </div>
+
+</div>
+
+
+    <br>
 
 
     </div>
