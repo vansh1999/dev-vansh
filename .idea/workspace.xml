@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9aa3a040-c2b0-4a32-b0d5-463c58887a94" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/homepage/form.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homepage/templates/contact_form.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homepage/templates/success.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/homepage/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/projects/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev_vansh/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/dev_vansh/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage/templates/contact-form.html" beforeDir="false" afterPath="$PROJECT_DIR$/homepage/templates/contact-form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/homepage/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/homepage/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,6 +20,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Python Script" />
         <option value="HTML File" />
       </list>
     </option>
